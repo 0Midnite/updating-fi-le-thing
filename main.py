@@ -1,1 +1,3 @@
-print("helo world!")
+import requests
+
+print(requests.get("https://example.com").text)
